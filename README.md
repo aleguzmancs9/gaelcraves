@@ -13,7 +13,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/gaelcraves.git
+   git clone https://github.com/aleguzmancs9/gaelcraves.git
    cd gaelcraves
    ```
 2. **Install dependencies**

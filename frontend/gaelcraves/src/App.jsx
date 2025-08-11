@@ -1,9 +1,13 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import Login from './components/Login'
 import CheckoutButton from './components/CheckoutButton'
 import Success from './pages/Success'
 import Cancel from './pages/Cancel'
+import Cart from './pages/Cart'
+import Checkout from './pages/Checkout'
+import Admin from './pages/Admin'
 import './App.css'
 
 function App() {
@@ -12,6 +16,9 @@ function App() {
       <div className="container mt-5">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="/success" element={<Success />} />
           <Route path="/cancel" element={<Cancel />} />
         </Routes>
